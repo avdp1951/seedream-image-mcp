@@ -5,7 +5,7 @@
 ## ✨ 特性
 
 - 🎨 使用火山引擎 SeeDream 4.0 模型生成高质量图片
-- 🔧 支持自定义尺寸、智能参考图等参数
+- 🔧 支持自定义尺寸、智能参考图等
 - 📝 无需编写复杂提示词，AI自动根据需求生成生图提示词
 - 🔌 MCP 协议支持，可在 Cursor、Claude Desktop 等客户端中使用
 
@@ -13,7 +13,7 @@
 
 ### 1. 获取火山引擎 API Key
 
-前往 [火山引擎控制台](https://console.volcengine.com/ark/region:ark+cn-beijing/apiKey) 申请 API Key。
+前往 [火山引擎->火山方舟控制台](https://console.volcengine.com/ark/region:ark+cn-beijing/apiKey) 开通服务并申请 API Key。
 
 ### 2. 使用 npx 运行
 
@@ -38,43 +38,35 @@ npx seedream-image-mcp --ark-key=YOUR_API_KEY
 
 ## 📖 使用示例
 
-在 Claude Desktop 中，你可以这样使用：
+在 AI Agent 工具中，你可以这样使用：
 
 ```
-帮我生成一张图片：赛博朋克风格的未来城市，霓虹灯闪烁，高清细节，杰作
+为这个页面添加合适的图片，避免过于单调
 ```
 
-Claude 会自动调用 generate-image 工具完成生成。
+AI 会自动调用工具完成生成。
 
-## ⚠️ 开源版限制
+## 📌 注意事项
 
-本开源版本提供基础的图片生成能力，但存在以下限制：
+**图片链接时效性**：本项目使用火山引擎原始 API，生成的图片链接通常在 24 小时后失效。如果你需要长期保存图片，请及时下载到本地。
 
-| 功能 | 开源版 | 商业版 |
-|------|--------|--------|
-| API Key | ❌ 需自己申请和管理 | ✅ 无需申请 |
-| 图片存储 | ⚠️ 24小时临时URL | ✅ 永久CDN |
-| 图片优化 | ❌ 无优化 | ✅ webp压缩 + 智能缩放 |
-| 背景移除 | ❌ | ✅ 一键移除 |
-| 预设尺寸 | ⚠️ 需手动输入 | ✅ 8种预设比例 |
-| 并发生成 | ❌ 同步等待 | ✅ 异步并发 |
-| 技术支持 | ❌ | ✅ 专业支持 |
+## 🔄 两种使用方式
 
-## 💡 升级到商业版
+你可以根据自己的需求选择：
 
-如果你遇到以下问题，建议试试商业版：
+### 方式一：本地运行 🔧
+- 需要自己申请火山引擎 API key
+- 图片链接 24 小时后失效
+- 适合临时使用或测试
 
-- ❌ 不想申请和管理 API key
-- ❌ URL 过期导致图片丢失
-- ❌ 需要图片优化减小图片体积（webp、智能缩放）
-- ❌ 需要支持生成透明背景图片
-- ❌ 需要并发生成多张图片
+### 方式二：云端版本 ✨
+- ✅ 无需申请 API key，开箱即用
+- ✅ 图片永久存储在 CDN
+- ✅ 支持 webp 压缩、背景移除、快速并发生成多张图片等功能
+- ✅ 提供一定的免费额度
+- ✅ 量大时价格更优惠
 
-### 🎁 免费试用
-
-**注册即送 30 张免费额度**，立即体验完整功能！
-
-👉 [访问 https://mcp.pixelark.art](https://mcp.pixelark.art)
+👉 了解云端版本：[https://mcp.pixelark.art](https://mcp.pixelark.art)
 
 ---
 
@@ -98,6 +90,6 @@ MIT
 
 ## 🔗 相关链接
 
-- [商业版官网](https://mcp.pixelark.art)
+- [云端版本](https://mcp.pixelark.art)
 - [火山引擎 SeeDream](https://www.volcengine.com/docs/ark/doubao-seedream)
 - [MCP 协议](https://modelcontextprotocol.io)

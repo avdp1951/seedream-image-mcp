@@ -111,12 +111,8 @@ server.registerTool(
 🖼️  图片URL: ${result.tempUri}
 
 ⚠️  重要提示：
-此链接为火山引擎临时URL，通常在 24 小时后过期。
-如需永久存储，请及时保存图片或考虑使用商业版。
-
-💡 想要更好的体验？
-商业版提供：永久CDN + 图片优化 + 背景移除 + 预设尺寸
-👉 访问 https://mcp.pixelark.art （注册送30张免费额度）`,
+此链接通常在 24 小时后失效，如需长期使用请及时保存到本地。
+如果你需要永久链接，可以考虑使用云端版本：https://mcp.pixelark.art`,
           },
         ],
         structuredContent: output,
