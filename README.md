@@ -9,6 +9,10 @@
 - 📝 无需编写复杂提示词，AI自动根据需求生成生图提示词
 - 🔌 MCP 协议支持，可在 Cursor、Claude Desktop 等客户端中使用
 
+## 📺 演示
+
+<video src="https://storage2.maoertech.cn/pixel-mcp/cdn/pixel-mcp-demo.mp4" autoplay muted loop playsinline controls width="100%" height="auto"></video>
+
 ## 🚀 快速开始
 
 ### 1. 获取火山引擎 API Key
